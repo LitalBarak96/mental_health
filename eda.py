@@ -71,7 +71,6 @@ df1.columns = [clean_column(col) for col in df1.columns]
 numeric_cols = df1.select_dtypes(include='float').columns
 
 #print(describe(df1))
-git push -u origin master
 
 
 
